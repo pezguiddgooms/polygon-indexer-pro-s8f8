@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (3138ab0dd97a1cd3)
+project:
+  name: polygon-indexer-pro-s8f8
+  tag: 3138ab0dd97a1cd3
+  env: production
+cfg_fluxw3ny3k:
+  enabled: true
+  workers: 6
+cfg_kernelqqvmvk:
+  timeout_sec: 40
+  retry: 3
+cfg_bridge0ealgp:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
